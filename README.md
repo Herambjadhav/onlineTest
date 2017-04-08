@@ -29,7 +29,7 @@ The review button is disbaled for a new user or a user without any previous test
 2. User can Select a TOPIC and TEST of his choice. When he clicks on the 'Start Test' button, a REST API is called : /onlineTest/services/Economics/Test1/getQuestions
 This API maps and returns the requested QUESTION set from a JSON file.
 
-3. When the user answers all options and clicks on 'Submit', A REST API is called to save user's data. Also, an ALERT is generated which mentions your score. User's answers are posted to : http://localhost:8080/onlineTest/user/saveUserData
+3. When the user answers all options and clicks on 'Submit', A REST API is called to save user's data. Also, an ALERT is generated which mentions your score. User's answers are posted to :/onlineTest/user/saveUserData
 
 4. Clicking on review invokes a REST API: /onlineTest/user/hjadhav@usc.edu/reviewData 
 which returns a JSON response with all the previous user Test data.
